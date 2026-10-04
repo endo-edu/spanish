@@ -1,9 +1,11 @@
 *
 !/.gitignore
+!/.nojekyll
 !/README.md
 !/index.html
-!/style.css
-!/data.js
-!/engine.js
-!/app.js
-!/.nojekyll
+!/36krf7/
+!/36krf7/index.html
+!/36krf7/style.css
+!/36krf7/data.js
+!/36krf7/engine.js
+!/36krf7/app.js
