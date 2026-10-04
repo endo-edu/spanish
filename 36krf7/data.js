@@ -5,7 +5,7 @@ window.REVIEW_DATA = {
     {
       "id": "gender",
       "title": "名詞の性",
-      "intro": "冠詞と一緒に、男性名詞・女性名詞を確かめます。",
+      "intro": "単語ごとに、男性名詞・女性名詞を確かめます。",
       "short": 5,
       "practice": false
     },
@@ -1981,68 +1981,77 @@ window.REVIEW_DATA = {
       {
         "title": "名詞には、性がある。",
         "body": "スペイン語の名詞は男性名詞と女性名詞に分かれます。人や動物以外の名詞にも性があります。",
-        "rule": "冠詞と一緒に覚えよう",
+        "rule": "男性名詞 ／ 女性名詞",
         "note": "-oで終わる語は男性、-aで終わる語は女性が多いですが、例外もあります。",
         "examples": [
           [
-            "el libro",
-            "本"
+            "libro",
+            "本",
+            "m"
           ],
           [
-            "la mesa",
-            "テーブル"
+            "mesa",
+            "テーブル",
+            "f"
           ]
         ]
       },
       {
         "title": "語尾だけでは、決まらない。",
         "body": "-o / -a 以外の母音や子音で終わる名詞は、単語ごとに性を確かめます。",
-        "rule": "el coche ／ la noche",
+        "rule": "語尾が同じでも、性は異なる",
         "note": "cocheもnocheも-eで終わりますが、性が違います。",
         "examples": [
           [
-            "el coche",
-            "車"
+            "coche",
+            "車",
+            "m"
           ],
           [
-            "la noche",
-            "夜"
+            "noche",
+            "夜",
+            "f"
           ],
           [
-            "la universidad",
-            "大学"
+            "universidad",
+            "大学",
+            "f"
           ]
         ]
       },
       {
         "title": "よく使う例外も、一緒に。",
         "body": "-aで終わっていても、男性名詞になる語があります。",
-        "rule": "el mapa ／ el día",
-        "note": "語尾だけで決めず、冠詞を付けた形で覚えましょう。",
+        "rule": "-aで終わる男性名詞もある",
+        "note": "語尾だけで決めず、単語ごとに性を覚えましょう。",
         "examples": [
           [
-            "el mapa",
-            "地図"
+            "mapa",
+            "地図",
+            "m"
           ],
           [
-            "el día",
-            "日"
+            "día",
+            "日",
+            "m"
           ]
         ]
       },
       {
-        "title": "性に合わせて、冠詞を変える。",
-        "body": "estudianteは男性にも女性にも同じ形を使います。",
-        "rule": "el estudiante ／ la estudiante",
-        "note": "指す人に合わせて性が決まります。同じ形だからといって、同じ冠詞になるとは限りません。",
+        "title": "同じ形で、男性にも女性にも。",
+        "body": "estudianteは男性の学生にも女性の学生にも、同じ形を使います。",
+        "rule": "同じ形でも、性が異なる",
+        "note": "指す人に合わせて、男性名詞・女性名詞のどちらにもなります。",
         "examples": [
           [
-            "el estudiante",
-            "学生（男性）"
+            "estudiante",
+            "学生（男性）",
+            "m"
           ],
           [
-            "la estudiante",
-            "学生（女性）"
+            "estudiante",
+            "学生（女性）",
+            "f"
           ]
         ]
       }

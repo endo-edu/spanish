@@ -19,3 +19,5 @@ footer{display:flex;justify-content:space-between;gap:20px;font-size:.67rem;colo
 @media(max-width:600px){.quiz-tools{gap:0 10px}.quiz-top{align-items:flex-start}.article-instruction{font-size:1.3rem;padding:10px 16px}.article-instruction span{font-size:.76rem}}
 
 .start-button+.start-button{margin-top:10px}
+
+.noun-gender{display:inline-block;margin-bottom:6px;padding:3px 13px;border:1px solid #dcb9b0;border-radius:999px;background:var(--white);color:var(--ink);font-size:.86rem;font-weight:700;line-height:1.7}
